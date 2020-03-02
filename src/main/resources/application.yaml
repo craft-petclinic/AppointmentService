@@ -1,0 +1,17 @@
+spring:
+   data.mongodb:
+      uri: mongodb://localhost:27017/petclinic
+server:
+   port: 8082
+
+appointment:
+   startTimeHours: 8
+   startTimeMinutes: 0
+   endTimeHours: 17
+   endTimeMinutes: 0
+   
+   
+   
+api:
+  findpet: http://localhost:8081/api/account/getPetById
+  findVet: http://localhost:8081/api/account/getVetById    
